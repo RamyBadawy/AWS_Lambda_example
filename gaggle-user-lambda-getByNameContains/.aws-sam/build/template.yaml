@@ -1,0 +1,35 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: AWS::Serverless-2016-10-31
+Description: 'gaggle-user-lambda
+
+  Sample SAM Template for gaggle-user-lambda
+
+  '
+Globals:
+  Function:
+    Timeout: 20
+Resources:
+  UserFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      CodeUri: UserFunction
+      Handler: com.gaggle.lambda.GetUserById::handleRequest
+      Runtime: java8
+      MemorySize: 512
+      Environment:
+        Variables:
+          DB_URL: 127.0.0.1:3306
+          DB_NAME: user_dev
+          DB_USER: root
+          DB_PASSWORD: admin
+      Events:
+        GetUserById:
+          Type: Api
+          Properties:
+            Path: /user/{id}
+            Method: get
+        GetUserByLastNameContains:
+          Type: Api
+          Properties:
+            Path: /user/search/{search}
+            Method: get

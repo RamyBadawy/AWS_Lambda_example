@@ -1,0 +1,8 @@
+C:\devl\git\gaggle-user-lambda\UserFunction\src\main\java\com\gaggle\lambda\AbstractHandler.java
+C:\devl\git\gaggle-user-lambda\UserFunction\src\main\java\com\gaggle\model\User.java
+C:\devl\git\gaggle-user-lambda\UserFunction\src\main\java\com\gaggle\config\SpringConfig.java
+C:\devl\git\gaggle-user-lambda\UserFunction\src\main\java\com\gaggle\service\UserService.java
+C:\devl\git\gaggle-user-lambda\UserFunction\src\main\java\com\gaggle\serviceImpl\UserServiceImpl.java
+C:\devl\git\gaggle-user-lambda\UserFunction\src\main\java\com\gaggle\exceptions\NoUserFoundException.java
+C:\devl\git\gaggle-user-lambda\UserFunction\src\main\java\com\gaggle\repository\UserRepository.java
+C:\devl\git\gaggle-user-lambda\UserFunction\src\main\java\com\gaggle\lambda\App.java
