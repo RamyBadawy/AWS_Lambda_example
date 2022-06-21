@@ -12,7 +12,7 @@
 		<maven.compiler.target>1.8</maven.compiler.target>
 		<spring.version>4.2.4.RELEASE</spring.version>
 		<hibernate.manager>5.4.21.Final</hibernate.manager>
-		<mysql.version>8.0.16</mysql.version>
+		<mysql.version>8.0.28</mysql.version>
 	</properties>
 
 	<dependencies>
